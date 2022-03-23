@@ -1,0 +1,14 @@
+# GIS related temp files
+
+*.data
+*.shp
+*.dbf
+*.shx
+
+
+# Office related backups
+*.temp
+
+# Secrets
+password*
+pass*
