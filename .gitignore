@@ -5,6 +5,12 @@
 *.dbf
 *.shx
 
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
 
 # Office related backups
 *.temp
