@@ -89,5 +89,5 @@ class H,I,J,K,L p3;
 ```
 ## Cartografia
 Per tal de realitzar aquest punt, mostraré el mapa realitzat amb QGIS2web que vaig realitzar com a esquema i que per suposat s'haura de modificar i millorar en tots els aspectes. 
-![mapa](Images/mapa_qgis2web.png)
 
+Aquest mapa també es pot observar en la pàgina web del **About** del meu repositori abaix de tot.
