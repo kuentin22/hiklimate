@@ -22,19 +22,44 @@ adverses, s’han de planificar altres destinacions o activitats.
 
 En segon lloc, un fet que m'ha motivat a fer aquest pàgina web, fa referència a que no disposem d’un sistema climàtic de qualitat que se centri en 
 aquesta activitat al territori, ja que em vaig adonar que Andorra disposa de poca informació climàtica, i que la tenim és molt limitada segons la 
-parròquia on ens trobem, així que em vaig proposar aconseguir diferents dades meteorològiques.
+parròquia on ens trobem, així que em vaig proposar aconseguir diferents dades meteorològiques especifiques pels diferents itineraris.
 
 En definitiva, com que a Andorra tenim un clima molt variat depenent del territori on ens trobem, la creació d'una pàgina web que
 pugui arribar a donar servei a diferents usuaris que vulguin pràcticar aquesta activitat em sembla molt interessant i necessària.
 
 ## Continguts
+El meu repositori està fragmentat en diferents arxius i carpetes que permetran observar la dinàmica que tinc pensat seguir a l'hora d'elaborar la pàgina web,
+com la carpeta *data*, on explico en detall gran part dels continguts que m'agradaria que apareixissin en la pàgina web. Encara així, pel moment m'agradaria que la meva pàgina web disposés d'aquests tres punts a la capçalera d'aquesta:
 
+**Pàgina d'inici**: en aquesta primera secció, introduiriem un breu anàlisi de diferents variables gràcies a l'oportunitat i constant informació climàtica i de predicció que ens pot oferir un servei climàtic de qualitat i la potencialitat que té en un sector turístic com és el senderisme en un país petit com Andorra.
 
+**Itineraris**: en aquest segon apartat, m'agradaria establir les condicions meteorològiques òptimes per a dur a terme l’activitat de senderisme en els diferents itineraris del territori de manera òptima i adaptada als usuaris finals als quals ens dirigim (*anomenats al word de la carpeta data*)
 
+**Condicions climàtiques**: en aquest punt, analitzarem la variabilitat climàtica depenent del punt del territori on ens trobem a partir del tractament de diferents variables com:(longitud, latitud, temps i LCC (Baixa Coberta Nuvosa)) extretes del Centre Europeu de Previsions Meteorològiques a Mitjà Termini.
+
+**Contacte**: finalment, en aquest darrer punt deixarem l'opció d'omplir un formulari de contacte, compòs per un número de telèfon i e-mail, i si es vol el nom d'usuari.
+
+Pel que fa als continguts de les carpetes d'aquest repositori que comentavem anteriorment, tinc una carpeta amb les diferents imatges a utilitzar, una altra de mapes, on hi ha el mapa realitzat amb QGis2web i els fitxers generats, una altra amb la LICENSE que ens va recomanar el professor seguir i un arxiu igual txt. on es fa una sinopsis de 9 punts de la LICENSE GPL3 utilitzada, un arxiu .gitignore on hi han els arxius que no vull que el lector tingui en compte i finalment un index.html on hi ha el codi de la meva pàgina web.
+Dins d'aquest mateix punt, també considero molt important destacar les referències bibliogràfiques que he seguit a l'hora d'obtenir els continguts d'aquesta.
+
+**Bibliografia**
+
+Servei Meteorològic Nacional (2021). Estacions meteorològiques. 
+https://www.meteo.ad/estacions
+
+Servei Meteorològic Nacional (2021). Climatologia. 
+https://www.meteo.ad/climatologia
+
+European Centre for Medium-Range Weather Forecasts. (2017). ECMWF. Free Public 
+Datasets
+https://www.ecmwf.int/en/forecasts/datasets
+
+Institut d’Estudis Andorrans. (2021). Visor de mapes (IDE)
+https://www.ideandorra.ad/geoportal/
 
 
 ## Estructura de la web
-Aquest punt l'he realitzat a partir de **Mermaid**, una eina de diagrames i gràfics basada en Javascript que representa definicions de text per crear i modificar diagrames de manera dinàmica.
+Aquest punt l'he realitzat a partir de **Mermaid**, una eina de diagrames i gràfics basada en Javascript que representa definicions de text per crear i modificar diagrames de manera dinàmica. 
 ```mermaid
 
 graph TD;
