@@ -104,6 +104,7 @@ D'altra banda, he tingut moltes dificultats a l'hora d'aprendre els continguts "
 Pel que fa a millores o aspectes postius considero que vaig encertar a l'hora d'utilitzar l'editor de còdig de Visual Studio, ja que hi estava força familiaritzat i un cop vaig aprendre com fer *commits*, *pulls*, i *push*, es molt intuitiu i em permet treballar amb molta comoditat, tal com s'observa a continuació:
 
 [captura1](Images/vs1.png)
+
 [captura2](Images/vs2.png)
 
 Com a altres ítems a millorar, considero que ara que ja tinc l'esquema de la meva pàgina web, ja podré centrar-me en millorar l'aspecte dels mapes i de la pròpia pàgina web, així com d'afegir-hi la informació necessària que necessiti per cada punt i que això em permeti avançar més rapidament.
