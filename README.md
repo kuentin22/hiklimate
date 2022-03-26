@@ -2,7 +2,7 @@
 
 ## Tema i motivació
 He escollit realitzar la pàgina web sobre el projecte que vam iniciar durant el transcurs de l'assignatura projecte V amb 
-el meu company **Lluís Salvat** referent a la creació d'un servei climàtic per a la pràctica del senderisme a Andorra a partir de 
+el meu company **Lluís Salvat**, referent a la creació d'un servei climàtic per a la pràctica del senderisme a Andorra a partir de 
 la definició d'unes variables i la automatització i càlcul del índex d'aquestes variables tal com veiem a continuació:
 
 **Variables:**
