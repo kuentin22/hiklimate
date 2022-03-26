@@ -98,10 +98,12 @@ Aquest mapa també es pot observar en la pàgina web del **About** del meu repos
 ## Dificultats i millores
 En primer lloc, a nivell de contingut he de reconeixer que no he tingut gairebé cap dificultat, ja que tenia molta informació descriptiva treballada en l'assignatura de Projecte V, així que unicament he hagut d'elegir aquella més relevant i de més interès per una pàgina web i per un usuari.
 
-D'altra banda, he tingut moltes dificultats a l'hora d'aprendre els continguts "bàsics" de **Bootstrap**, ja que era quelcom totalment nou per a mi, i he hagut de començar desde 0 i buscar molta bibliografia al respecte. També m'agradaria destacar el fet d'exportar el mapa amb QGIS2web, que ha sigut un procés molt llarg, ja que per A o per B, hi havia algun pas que no em deixava avançar, i m'ha fet invertir moltes hores en això. Finalment, la darrera dificultat que he tingut fa referència a la creació d'una pàgina web amb *html*, llenguatge que si que coneixia a nivell conceptual, però que mai m'hagués imaginat que fos tant ampli i complex d'entendre.
+D'altra banda, he tingut moltes dificultats a l'hora d'aprendre els continguts "bàsics" de **Bootstrap**, ja que era i és quelcom totalment nou per a mi, i he hagut de començar desde 0 i buscar molta bibliografia al respecte. També m'agradaria destacar el fet d'exportar el mapa amb QGIS2web, que ha sigut un procés molt llarg, ja que per A o per B, hi havia algun pas que no em deixava avançar, i m'ha fet invertir moltes hores en això. Finalment, la darrera dificultat que he tingut fa referència a la creació d'una pàgina web amb *html*, llenguatge que si que coneixia a nivell conceptual, però que mai m'hagués imaginat que fos tant ampli i complex d'entendre.
 
 Pel que fa a millores o aspectes postius considero que vaig encertar a l'hora d'utilitzar l'editor de còdig de Visual Studio, ja que hi estava força familiaritzat i un cop vaig aprendre com fer *commits*, *pulls*, i *push*, es molt intuitiu i em permet treballar amb molta comoditat, tal com s'observa a continuació:
-[VS](Images/vs1.png)
-[VS](Images/vs2.png)
 
+[captura1](Images/vs1.png)
+[captura2](Images/vs2.png)
+
+Com a altres ítems a millorar, considero que ara que ja tinc l'esquema de la meva pàgina web, ja podré centrar-me en millorar l'aspecte dels mapes i de la pròpia pàgina web, així com d'afegir-hi la informació necessària que necessiti per cada punt i que això em permeti avançar més rapidament.
 
