@@ -100,7 +100,8 @@ En primer lloc, a nivell de contingut he de reconeixer que no he tingut gairebé
 
 D'altra banda, he tingut moltes dificultats a l'hora d'aprendre els continguts "bàsics" de **Bootstrap**, ja que era quelcom totalment nou per a mi, i he hagut de començar desde 0 i buscar molta bibliografia al respecte. També m'agradaria destacar el fet d'exportar el mapa amb QGIS2web, que ha sigut un procés molt llarg, ja que per A o per B, hi havia algun pas que no em deixava avançar, i m'ha fet invertir moltes hores en això. Finalment, la darrera dificultat que he tingut fa referència a la creació d'una pàgina web amb *html*, llenguatge que si que coneixia a nivell conceptual, però que mai m'hagués imaginat que fos tant ampli i complex d'entendre.
 
-Pel que fa a millores o aspectes postius considero que vaig encertar a l'hora d'utilitzar l'editor de còdig de Visual Studio, ja que hi estava força familiaritzat i un cop vaig aprendre com fer *commits*, *pulls*, i *push*, es molt intuitiu i em permet treballar amb molta comoditat.
-
+Pel que fa a millores o aspectes postius considero que vaig encertar a l'hora d'utilitzar l'editor de còdig de Visual Studio, ja que hi estava força familiaritzat i un cop vaig aprendre com fer *commits*, *pulls*, i *push*, es molt intuitiu i em permet treballar amb molta comoditat, tal com s'observa a continuació:
+[VS](Images/vs1.png)
+[VS](Images/vs2.png)
 
 
