@@ -3,7 +3,7 @@
 ## Tema i motivació
 He escollit realitzar la pàgina web sobre el projecte que vam iniciar durant el transcurs de l'assignatura projecte V amb 
 el meu company **Lluís Salvat**, referent a la creació d'un servei climàtic per a la pràctica del senderisme a Andorra a partir de 
-la definició d'unes variables i la automatització i càlcul del índex d'aquestes variables tal com veiem a continuació:
+la definició d'unes variables i la automatització i càlcul del índex d'aquestes variables, tal com veiem a continuació:
 
 **Variables:**
 
@@ -13,7 +13,7 @@ la definició d'unes variables i la automatització i càlcul del índex d'aques
 
 Si ens centrem en el que m'ha motivat per la realització d'aquesta pàgina web, hi han diversos motius. En primer lloc, 
 perquè coma a amant de la geografia, el senderisme es realitza en geografies 
-diferents de les que ens són habituals com ara qualsevol localització enmig d’una ciutat, on el principal factor que es té en compte
+diferents de les que ens són habituals com pugui ser qualsevol localització enmig d’una ciutat, on el principal factor que es té en compte
 per la seva pràctica és la sensació de llibertat i el clima, sobretot si entre l'inici i el final d'un itinerari hi ha molts quilòmetres de distància.
 Cal adonar-se que, fins i tot, al llarg d'un dia en un mateix punt, les condicions meteorològiques poden canviar significativament; 
 sobretot si es programa una activitat que suposi un gran desnivell en algun dels sistemes muntanyosos d’Andorra. Així doncs, trobo molt important 
