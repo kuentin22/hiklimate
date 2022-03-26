@@ -40,7 +40,7 @@ com la carpeta *data*, on explico en detall gran part dels continguts que m'agra
 **Contacte**: finalment, en aquest darrer punt deixarem l'opció d'omplir un formulari de contacte, compòs per un número de telèfon i e-mail, i si es vol el nom d'usuari.
 
 Pel que fa als continguts de les carpetes d'aquest repositori que comentavem anteriorment, tinc una carpeta amb les diferents imatges a utilitzar, una altra de mapes, on hi ha el mapa realitzat amb QGis2web i els fitxers generats, una altra amb la LICENSE que ens va recomanar el professor seguir i un arxiu igual txt. on es fa una sinopsis de 9 punts de la LICENSE GPL3 utilitzada, un arxiu .gitignore on hi han els arxius que no vull que el lector tingui en compte i finalment un index.html on hi ha el codi de la meva pàgina web.
-Dins d'aquest mateix punt, també considero molt important destacar les referències bibliogràfiques que he seguit a l'hora d'obtenir els continguts d'aquesta.
+Dins d'aquest mateix punt, també considero molt important destacar les referències bibliogràfiques que he seguit a l'hora d'obtenir els continguts, tant descriptius com cartogràfics.
 
 **Bibliografia**
 
@@ -57,6 +57,8 @@ https://www.ecmwf.int/en/forecasts/datasets
 Institut d’Estudis Andorrans. (2021). Visor de mapes (IDE)
 https://www.ideandorra.ad/geoportal/
 
+https://www.qgistutorials.com/es/docs/web_mapping_with_qgis2web.html
+https://getbootstrap.com/docs/5.0/examples/
 
 ## Estructura de la web
 Aquest punt l'he realitzat a partir de **Mermaid**, una eina de diagrames i gràfics basada en Javascript que representa definicions de text per crear i modificar diagrames de manera dinàmica. 
@@ -92,3 +94,13 @@ Per tal de realitzar aquest punt, mostraré el mapa realitzat amb QGIS2web que v
 [Mapa](Images/mapa1.png)
 
 Aquest mapa també es pot observar en la pàgina web del **About** del meu repositori abaix de tot. Dit això, també m'agradaria destacar com m'agradaria realitzar més mapes d'indicadors climàtics un cop tingui clara l'estructura.
+
+## Dificultats i millores
+En primer lloc, a nivell de contingut he de reconeixer que no he tingut gairebé cap dificultat, ja que tenia molta informació descriptiva treballada en l'assignatura de Projecte V, així que unicament he hagut d'elegir aquella més relevant i de més interès per una pàgina web i per un usuari.
+
+D'altra banda, he tingut moltes dificultats a l'hora d'aprendre els continguts "bàsics" de **Bootstrap**, ja que era quelcom totalment nou per a mi, i he hagut de començar desde 0 i buscar molta bibliografia al respecte. També m'agradaria destacar el fet d'exportar el mapa amb QGIS2web, que ha sigut un procés molt llarg, ja que per A o per B, hi havia algun pas que no em deixava avançar, i m'ha fet invertir moltes hores en això. Finalment, la darrera dificultat que he tingut fa referència a la creació d'una pàgina web amb *html*, llenguatge que si que coneixia a nivell conceptual, però que mai m'hagués imaginat que fos tant ampli i complex d'entendre.
+
+Pel que fa a millores o aspectes postius considero que vaig encertar a l'hora d'utilitzar l'editor de còdig de Visual Studio, ja que hi estava força familiaritzat i un cop vaig aprendre com fer *commits*, *pulls*, i *push*, es molt intuitiu i em permet treballar amb molta comoditat.
+
+
+
