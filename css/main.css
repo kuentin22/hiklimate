@@ -410,14 +410,17 @@ body{
     margin: 20px;
 }
 .testimonios .box-testimonio .card-testimonio .card-img{
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 30px;
+    padding-bottom: 100px;
 }
 .testimonios .box-testimonio .card-testimonio .card-img img{
-    width: 150px;
-    height: 150px;
+    width: calc(50% - 10px);
     border-radius: 50%;
+    margin: 15px;
     object-fit: cover;
     cursor: pointer;
 }
