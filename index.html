@@ -1,161 +1,196 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
     <!-- Metadades -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    
+    <!-- Estils Css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
 
-    <title>HIKLIMATE.</title>
-  </head>
-  <body>
+    <title>HIKLIMATE | Inicio</title>
+</head>
+<body>
+
+  <!-- Ir Arriba -->
+  <div class="go-top">
+    <span class="fas fa-angle-up"></span>
+  </div>
+
   <!--========================================================== -->
-                       <!-- Capçalera pàgina web -->
+                        <!-- Capçalera -->
   <!--========================================================== -->
+    <header id="header">
+    <nav class="menu">
+     <div class="logo-box">
+       <h1><a href="#">Hiklimate</a></h1>
+       <span class="btn-menu"><i class="fas fa-bars"></i></span>
+     </div>
+     
+     <div class="list-container">
+        <ul class="lists">
+            <li><a href="#" class="active">Inici</a></li>
+            <li><a href="#">Servei Climàtic</a></li>
+            <li><a href="#">Webcams</a></li>
+            <li><a href="#">Preguntes freqüents</a></li>
+            <li><a href="#">Contacte</a></li>
+        </ul>
+     </div>
 
-    <nav  class="navbar navbar-expand-lg navbar-light p-3" id="menu">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-              <span class="fs-5 text-primary fw-bold">HIKLIMATE.</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Pàgina d'inici</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Itineraris</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Condicions climàtiques</a>
-              </li>
-            </ul>
-
-            <form class="d-flex">
-              <input class="form-control me-2" type="email" placeholder="Correu Electrònic" aria-label="Suscribete">
-              <button class="btn btn-primary btn-primary-outline-success" type="button">Informat</button>
-            </form>
-          </div>
-
-        </div>
-      </nav>
-
-    <!--========================================================== -->
-                        <!-- SLIDER D'IMATGES-->
-    <!--========================================================== -->
-   
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./Images/senderisme.jpg" class="d-block w-100" alt="slide1">
-          </div>
-          
+    </nav>
  
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./Images/andorra_mapa.jpeg" class="d-block w-100" alt="slide2">
-          </div>
- 
-
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./Images/refugis.jpg" class="d-block w-100" alt="slide3">
-          </div>
- 
- 
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>    
+    <!-- Imatge Capçalera -->
+    <div class="img-header">
+     <div class="welcome">
+       <h1>Servei climàtic aplicat al senderisme</h1>
+       <hr>
+       <p><b>HIKLIMATE</b>. Té l'objectiu de potenciar la capacitat d’un servei climàtic en un país petit com Andorra.</p>
+       <button id="abajo">Ver abajo</button>
+     </div>       
+    </div>
     
-    <!--========================================================== -->
-                        <!-- INTRODUCCIÓ PÀGINA INICIAL-->
-    <!--========================================================== -->
+    <div class="skew-abajo"></div>
+
+    </header>
+  
+                        <!-- PÀGINA INICIAL-->
+
+ <main>
 
 
-    <section class="d-flex flex-column justify-content-center align-items-center pt-4  text-center w-50 m-auto" id="intro">
-    <h1 class="p-3 fs-2 border-top border-2">El senderisme es practica en geografies diferents de les que ens són habituals, on el principal factor
-    diferencial és el <span class="text-primary">Clima<span/></h1>
-     <p class="p-3  fs-4">
-         <span class="text-primary">HIKLIMATE.</span> Pretén potenciar la capacitat d’un servei climàtic a
-        un sector turístic com és el senderisme en un país
-        petit com Andorra.
+
+    <!-- Servei Climàtic -->
+    <section class="acerca-de">
+
+    <div class="info-container">
+      <h1>Servei Climàtic</h1>
+      <p>Pretenem analitzar la <b>variabilitat climàtica</b> depenent del punt del territori on ens trobem.</p>
+      <p>Creat a partir d'un procés de <b>co-creació</b> participatiu i actiu amb multiplicitat de condicionants: meteorològics, d'accessibilitat i temporals.</p>
+      <p>Definició de les variables (<b>longitud, latitud, temps i LCC (Baixa Coberta Nuvosa)</b>) extretes del Centre Europeu de Previsions Meteorològiques a Mitjà Termini.</p>
+      <p>Estableix les <b>condicions meteorològiques òptimes</b> per a dur a terme l’activitat de senderisme en els diferents itineraris del territori. </p>
+      <p>A continuació, podem observar a través de cartografia pròpia la distribució dels diferents <b>refuguis que trobem en les rutes de senderisme</b> del país.</p>
+      <iframe src="./Maps/mapa_1/qgis2web_2022_05_11-11_23_20_446310/index.html" height="400"></iframe>
+
+      <div class="about-gallery">
+        <img src="./Images/meteo.png" alt="meteorologia" width="180" height="180">
+        <img src="./Images/LOGO.jpg" alt="LOGO" width="300" height="200">
+        <img src="./Images/ecmwf.png" alt="ecmwf" width="180" height="200">
         
-     </p>   
+      </div>
+
+    </div>
     </section>
 
-   <!--========================================================== -->
-                        <!-- Diferents Contenidors-->
-    <!--========================================================== -->
+   <!-- Webcams -->
+   <section class="our-projects">
+      <div class="skew-arriba"></div>
+   <div class="deg-background"></div>
+   
+   <div class="ejeZproject">
+      <div class="container-project">
+        <div class="project-title">
+          <h2>Webcams</h2>
+          <hr>
+          <p>Podem observar com es presenten les condicions meteorològiques a les rodalies de la Borda Vidal, Envalira i Roc de Sant Pere.</p>
+        </div>
+          <div class="project-img">
+            <img src="./Images/Envalira.png" alt="">
+            <img src="./Images/rocstpere.png" alt="">
+            <img src="./Images/naturlandia.png" alt="">
 
+         </div>
+   <div class="skew-abajo"></div>
+   </section>
 
-<section class="w-100">
-    <div class="row w-75 mx-auto" id="servicios-fila-1">       
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-            <img src="./Images/meteo.png" alt="meteorologia"   width="180" height="160">
+   <!-- Preguntes freqüents -->
+   <section class="testimonios">
+    <div class="testimonios-title">
+     <h2>Preguntes freqüents</h2>
+     <hr>
+    </div>
 
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1 text-center">Meteorologia</h3>
-                <p class="px-4 text-center"> Analitzar la variabilitat climàtica depenent del punt del territori on ens trobem.</p>
-            </div>
+     <div class="box-testimonio">
+      <div class="card-testimonio">
+        <div class="card-img"><img src="./Images/andorra_mapa.jpeg" alt=""></div>
+        <div class="testimonio-text">
+        <h4> On s'ofereix el servei?</h4>
+        <p>"De moment en l'àmbit andorrà, tot i que de cara al futur ens agradaria ser un projecte transfronterer, per tant, que arribi a Espanya i França. <br> Per a fer això possible esperem poder comptar amb l'ajuda del Govern o d'entitats privades tant locals com internacionals que puguin dotar al projecte d'un alt valor afegit que el faria destacar."</p>
+        </div>
+      </div>
 
+      <div class="card-testimonio">
+          <div class="card-img"><img src="./Images/palau_gel.jpg" alt=""></div>
+          <div class="testimonio-text">
+          <h4> Si les condicions meteorològiques no són bones, que podem fer?</h4>
+          <p>"Estem en un procés de col·laboració amb diferents empreses andorranes que ofereixen serveis complementaris, ja siguin activitats a cobert com: patinatge sobre gel, Escape Room, un bany termal a Caldea o una ruta comercial amb descomptes en diferents establiments de cada Parròquia."</p>
+          </div>
         </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-            <img src="./Images/ruta.jpg" alt="ruta" width="350" height="180">
-
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap text-center" >Itineraris</h3>
-                <p class="px-4 text-center"> Establir les condicions meteorològiques òptimes per a dur a terme l’activitat de senderisme en els diferents itineraris del territori. </p>
+        <div class="card-testimonio">
+            <div class="card-img"><img src="./Images/refugis.jpg" alt=""></div>
+            <div class="testimonio-text">
+            <h4> Oferiu guiatge per itineraris?</h4>
+            <p>"Nosaltres oferim un servei que pot ajudar a una empresa de guies de muntanya a realitzar itineraris de senderisme, així que els deixem amb el contacte de Trekking Andorra, servei ofert per Andorrainfo que proporciona material i informació sobre els diferents itineraris senderistes del país de manera acurada i professional."</p>
             </div>
-        </div>   
-    </div>
-    
-    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
-            <img src="./Images/ecmwf.png" alt="ecmwf" width="180" height="160">
+          </div>
 
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1 text-center">Base de dades</h3>
-                <p class="px-4 text-center">Definició de les variables (longitud, latitud, temps i LCC (Baixa Coberta Nuvosa)) extretes del Centre Europeu de Previsions Meteorològiques a Mitjà Termini.</p>
+          <div class="card-testimonio">
+              <div class="card-img"><img src="./Images/andorra.jpg" alt=""></div>
+              <div class="testimonio-text">
+              <h4>Com podem col·laborar amb vosaltres?</h4>
+              <p>"Som una empresa oberta que sempre està disposada a contactar amb nous col·laboradors. Si detecteu qualsevol error o voleu formar part d'aquest projecte amb noves idees, contacteu amb nosaltres a partir l'apartat de <b>Contacte</b> que trobareu al final de la pàgina web "</p>
+              </div>
             </div>
+
+     </div>
+   </section>
+
+ </main> 
+
+ <!-- Contacte / Peu de pàgina -->
+ <footer class="footer">
+   <div class="skew-arriba"></div>
+  <div class="deg-footer"></div>
+ 
+  <div class="ejeZfooter">
+  <div class="footer-content">
+   <div class="footer-title">
+     <h2>Formulari de Contacte</h2>
+     <hr>
+   </div>
+
+   <div class="formulario-content">
+     <form id="formulario">
+        <label for="user">Nom:</label>
+        <input type="text" id="user" name="user" placeholder="Fica el teu nom">
+   
+        <label for="email">Correu Electrònic:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa el teu Correu Electrònic">
+   
+        <label for="message">Escriu el teu missatge:</label>
+        <textarea name="menssage" id="message"></textarea>
+   
+        <div class="send"><button>Enviar</button></div>
+   
+        <div class="mensaje-form">
+          <p>Escriu-nos un missatge, amb molt de gust et donarem una respuesta de part nosotra en molt poc temps.</p>
         </div>
+     </form>
+   </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
-            <img src="./Images/LOGO.jpg" alt="LOGO" width="300" height="200" >
+   <div class="footer-text">
+     <p>&copy; Hiklimate - 2022 | Tots els drets reservats.</p>
+   </div>
+  
+  </div>
+</div>
+ </footer>
 
-            <div>
-                <h3 class="fs-5 mt-4 px-4 pb-1 text-center">Objectius del projecte</h3>
-                <p class="px-4 text-center">Procés de co-creació participatiu i actiu amb multiplicitat de condicionants: meteorològics, d'accessibilitat i temporals </p>
-            </div>
-        </div>   
-    </div>
-</section>
-      
-       <!--========================================================== -->
-                       <!-- Mapa Proba -->
-  <!--========================================================== -->
-<iframe src="./Maps/mapa_1/qgis2web_2022_05_11-11_23_20_446310/index.html"></iframe>
-      
-      
-      
-      
-      
-      
-      
-      
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/35db202371.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
