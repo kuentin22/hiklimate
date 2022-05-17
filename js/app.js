@@ -41,7 +41,6 @@ enlaces.forEach((element) => {
 });
 
 //Scroll Efect
-
  let prevScrollPos = window.pageYOffset;
  let goTop = document.querySelector('.go-top');
 
