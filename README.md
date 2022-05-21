@@ -33,7 +33,7 @@ com la carpeta *data*, on explico en detall gran part dels continguts que m'agra
 
 **Servei Climàtic**: en aquesta primera secció, introduiriem un breu anàlisi de diferents variables gràcies a l'oportunitat i constant informació climàtica i de predicció que ens pot oferir un servei climàtic de qualitat i la potencialitat que té en un sector turístic com és el senderisme en un país petit com Andorra.
 
-**Webcams**: en aquest segon apartat, exposarem algunes de les webcams referents a punts claus del territori a través de les condicions meteorològiques de les rodalies de la Borda Vidal, Envalira i Roc de Sant Pere. Rutes claus per a dur a terme l’activitat de senderisme en diferents itineraris del territori de manera òptima i adaptada als usuaris finals als quals ens dirigim (*anomenats al word de la carpeta data*)
+**Webcams**: en aquest segon apartat, exposarem algunes de les webcams referents a punts claus del territori, on s'observen les condicions meteorològiques de les rodalies de la Borda Vidal, Envalira i Roc de Sant Pere, tres rutes claus per a dur a terme l’activitat de senderisme, situades en diferents itineraris del territori que poden afectar als usuaris finals als quals ens dirigim (*anomenats al word de la carpeta data*)
 
 **Preguntes freqüents**: en aquest punt, donarem resposta a algunes de les principals preguntes que poden sorgir de la nostra web de la manera més clara possible des d'una perspectiva d'apassionats del territori i del clima que ens envolta.
 
