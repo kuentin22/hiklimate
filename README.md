@@ -35,7 +35,7 @@ com la carpeta *data*, on explico en detall gran part dels continguts que m'agra
 
 **Webcams**: en aquest segon apartat, exposarem algunes de les webcams referents a punts claus del territori a través de les condicions meteorològiques de les rodalies de la Borda Vidal, Envalira i Roc de Sant Pere. Rutes claus per a dur a terme l’activitat de senderisme en diferents itineraris del territori de manera òptima i adaptada als usuaris finals als quals ens dirigim (*anomenats al word de la carpeta data*)
 
-**Preguntes freqüents**: en aquest punt, analitzarem la variabilitat climàtica depenent del punt del territori on ens trobem a partir del tractament de diferents variables com:(longitud, latitud, temps i LCC (Baixa Coberta Nuvosa)) extretes del Centre Europeu de Previsions Meteorològiques a Mitjà Termini.
+**Preguntes freqüents**: en aquest punt, donarem resposta a algunes de les principals preguntes que poden sorgir de la nostra web de la manera més clara possible des d'una perspectiva d'apassionats del territori i del clima que ens envolta.
 
 **Contacte**: finalment, en aquest darrer punt deixarem l'opció d'omplir un formulari de contacte, compòs per un nom i e-mail, i si es vol un missatge.
 
