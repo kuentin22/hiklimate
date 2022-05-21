@@ -29,17 +29,17 @@ pugui arribar a donar servei a diferents usuaris que vulguin pràcticar aquesta 
 
 ## Continguts
 El meu repositori està fragmentat en diferents arxius i carpetes que permetran observar la dinàmica que tinc pensat seguir a l'hora d'elaborar la pàgina web,
-com la carpeta *data*, on explico en detall gran part dels continguts que m'agradaria que apareixissin en la pàgina web. Encara així, pel moment m'agradaria que la meva pàgina web disposés d'aquests tres punts a la capçalera d'aquesta:
+com la carpeta *data*, on explico en detall gran part dels continguts que m'agradaria que apareixissin en la pàgina web. Encara així, la meva pàgina web disposarà d'aquests punts a la capçalera:
 
-**Pàgina d'inici**: en aquesta primera secció, introduiriem un breu anàlisi de diferents variables gràcies a l'oportunitat i constant informació climàtica i de predicció que ens pot oferir un servei climàtic de qualitat i la potencialitat que té en un sector turístic com és el senderisme en un país petit com Andorra.
+**Servei Climàtic**: en aquesta primera secció, introduiriem un breu anàlisi de diferents variables gràcies a l'oportunitat i constant informació climàtica i de predicció que ens pot oferir un servei climàtic de qualitat i la potencialitat que té en un sector turístic com és el senderisme en un país petit com Andorra.
 
-**Itineraris**: en aquest segon apartat, m'agradaria establir les condicions meteorològiques òptimes per a dur a terme l’activitat de senderisme en els diferents itineraris del territori de manera òptima i adaptada als usuaris finals als quals ens dirigim (*anomenats al word de la carpeta data*)
+**Webcams**: en aquest segon apartat, exposarem algunes de les webcams referents a punts claus del territori a través de les condicions meteorològiques de les rodalies de la Borda Vidal, Envalira i Roc de Sant Pere. Rutes claus per a dur a terme l’activitat de senderisme en diferents itineraris del territori de manera òptima i adaptada als usuaris finals als quals ens dirigim (*anomenats al word de la carpeta data*)
 
-**Condicions climàtiques**: en aquest punt, analitzarem la variabilitat climàtica depenent del punt del territori on ens trobem a partir del tractament de diferents variables com:(longitud, latitud, temps i LCC (Baixa Coberta Nuvosa)) extretes del Centre Europeu de Previsions Meteorològiques a Mitjà Termini.
+**Preguntes freqüents**: en aquest punt, analitzarem la variabilitat climàtica depenent del punt del territori on ens trobem a partir del tractament de diferents variables com:(longitud, latitud, temps i LCC (Baixa Coberta Nuvosa)) extretes del Centre Europeu de Previsions Meteorològiques a Mitjà Termini.
 
-**Contacte**: finalment, en aquest darrer punt deixarem l'opció d'omplir un formulari de contacte, compòs per un número de telèfon i e-mail, i si es vol el nom d'usuari.
+**Contacte**: finalment, en aquest darrer punt deixarem l'opció d'omplir un formulari de contacte, compòs per un nom i e-mail, i si es vol un missatge.
 
-Pel que fa als continguts de les carpetes d'aquest repositori que comentavem anteriorment, tinc una carpeta amb les diferents imatges a utilitzar, una altra de mapes, on hi ha el mapa realitzat amb QGis2web i els fitxers generats, una altra amb la LICENSE que ens va recomanar el professor seguir i un arxiu igual txt. on es fa una sinopsis de 9 punts de la LICENSE GPL3 utilitzada, un arxiu .gitignore on hi han els arxius que no vull que el lector tingui en compte i finalment un index.html on hi ha el codi de la meva pàgina web.
+Pel que fa als continguts de les carpetes d'aquest repositori que comentavem anteriorment, tinc una carpeta amb les diferents imatges a utilitzar, una altra de mapes, on hi ha el mapa realitzat amb QGis2web i els fitxers generats, una altra amb la LICENSE que ens va recomanar el professor seguir i un arxiu igual txt. on es fa una sinopsis de 9 punts de la LICENSE GPL3 utilitzada, un arxiu .gitignore on hi han els arxius que no vull que el lector tingui en compte i finalment un index.html on hi ha el codi de la meva pàgina web i altres arxius html que he utilitzat per enllaçar correctament les diferents pàgines del meu index.html.
 Dins d'aquest mateix punt, també considero molt important destacar les referències bibliogràfiques que he seguit a l'hora d'obtenir els continguts, tant descriptius com cartogràfics.
 
 **Bibliografia**
@@ -71,9 +71,9 @@ A[fa:fa-mountain Servei climàtic aplicat al senderisme a Andorra.];
     
 A-->B[fa:fa-home HIKLIMATE];
 
-B-->C[fa:fa-star Pàgina d'inici];
-B-->D[fa:fa-walking Itineraris];
-B-->E[fa:fa-sun fa:fa-cloud Condicions climàtiques];
+B-->C[fa:fa-star Servei Climàtic];
+B-->D[fa:fa-walking Webcams];
+B-->E[fa:fa-sun fa:fa-cloud Preguntes freqüents];
 B-->G[fa:fa-envelope fa:fa-phone Contacte];
 
 C-->H(Analitzar diferents variables <br> dirigides a la pràctica <br> òptima del senderisme.<br> <br> Adaptació del canvi climàtic <br> a tots els nivells. <br> <br.);
@@ -91,21 +91,21 @@ class B,C,D,E,F,G p2;
 class H,I,J,K,L p3;
 ```
 ## Cartografia
-Per tal de realitzar aquest punt, mostraré el mapa realitzat amb QGIS2web que vaig realitzar com a esquema i que per suposat s'haura de modificar i millorar en tots els aspectes. 
+Per tal de realitzar aquest punt, mostraré el mapa realitzat amb QGIS2web que vaig realitzar.
 [Mapa](Images/mapa1.png)
 
-Aquest mapa també es pot observar en la pàgina web del **About** del meu repositori abaix de tot. Dit això, també m'agradaria destacar com m'agradaria realitzar més mapes d'indicadors climàtics un cop tingui clara l'estructura.
+Aquest mapa també es pot observar en la pàgina web a través de la pestanya **Servei Climàtic** del meu repositori abaix de tot. Dit això, també m'agradaria destacar que aquesta cartografia ha estat modificada segons les indicacions del professor durant la presentació
 
 ## Dificultats i millores
 En primer lloc, a nivell de contingut he de reconeixer que no he tingut gairebé cap dificultat, ja que tenia molta informació descriptiva treballada en l'assignatura de Projecte V, així que unicament he hagut d'elegir aquella més relevant i de més interès per una pàgina web i per un usuari.
 
-D'altra banda, he tingut moltes dificultats a l'hora d'aprendre els continguts "bàsics" de **Bootstrap**, ja que era i és quelcom totalment nou per a mi, i he hagut de començar desde 0 i buscar molta bibliografia al respecte. També m'agradaria destacar el fet d'exportar el mapa amb QGIS2web, que ha sigut un procés molt llarg, ja que per A o per B, hi havia algun pas que no em deixava avançar, i m'ha fet invertir moltes hores en això. Finalment, la darrera dificultat que he tingut fa referència a la creació d'una pàgina web amb *html*, llenguatge que si que coneixia a nivell conceptual, però que mai m'hagués imaginat que fos tant ampli i complex d'entendre.
+D'altra banda, considero que he millorat molt la meva metodologia de treball, en saber els principis bàsics d’HTML, CSS i Java Script i sobretot pel fet d’haver practicat molt a classe. Pel que fa a la cartografia corresponent, es veritat que en un inici em va donar molts problemes, però els he pogut solucionar, ja que les icones em sortien tapades amb un quadre negre com si l’eina QGis2Web no les llegís. Aleshores, el que vaig fer va ser borrar la que tenia i anar provant quines llegia el programa fins que vaig trobar una icona apropiada i que es podia llegir en realitzar el procés corresponent. 
+Pel que fa al CSS, si be es veritat que he entès els conceptes considero que hauríem d’estar molt més temps per poder desenvolupar un CSS de manera autòctona per la nostra pàgina web, fet aplicable a l’hora d’executar JavaScript, el qual ha sigut molta proba error malgrat tenir una plantilla i aquest ja definit, en voler modificar algunes parts. Aquest últim fet però, m’ha proporcionat molta fluïdesa a l’hora de trobar i solucionar problemes que he tingut.
+En termes generals, considero que es una pàgina bona, i que compleix tots els requisits que ens vau demanar per a un correcte desenvolupament d’aquesta, en tenir CSS i JavaScript en dos fitxers diferenciats amb el seu corresponent codi i enllaçat al meu index.html i en ser responsiva i útil.
 
-Pel que fa a millores o aspectes postius considero que vaig encertar a l'hora d'utilitzar l'editor de còdig de Visual Studio, ja que hi estava força familiaritzat i un cop vaig aprendre com fer *commits*, *pulls*, i *push*, es molt intuitiu i em permet treballar amb molta comoditat, tal com s'observa a continuació:
+Pel que fa a millores o aspectes postius considero que vaig encertar a l'hora d'utilitzar l'editor de còdi de Visual Studio, ja que hi estava força familiaritzat i un cop vaig aprendre com fer *commits*, *pulls*, i *push*, es molt intuitiu i em permet treballar amb molta comoditat, tal com s'observa a continuació:
 
 [captura1](Images/vs1.png)
 
 [captura2](Images/vs2.png)
-
-Com a altres ítems a millorar, considero que ara que ja tinc l'esquema de la meva pàgina web, ja podré centrar-me en millorar l'aspecte dels mapes i de la pròpia pàgina web, així com d'afegir-hi la informació necessària que necessiti per cada punt i que això em permeti avançar més rapidament.
 
